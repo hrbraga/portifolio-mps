@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/reset.css">
+    <link rel="stylesheet" href="/src/css/variables.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <title>Portifólio HRB Dev</title>
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <div class="header_logo">
+                <a href="#">
+                    <img class="cabecalho_logo" src="/src/images/logo.png" alt="Logo HRB Dev">
+                </a>
+            </div>
+            
+                <nav>
+                    <input type="checkbox" name="" id="menu-hamburguer" />
+                    <label for="menu-hamburguer">
+                        <div class="menu"> <span class="hamburguer">
+                            </span>
+                        </div>
+                    </label>
+
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#habilidades">Habilidades</a></li>
+                        <li><a href="#portifolio">Projetos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+           
+
+            <div class="btn-contato"><a href="#contato"><button>Contato</button></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="sobre" id="sobre">
+            <div class="sobre-conteudo">
+                <div class="flex">
+                    <div class="sobre-dados">
+                        <h1>Olá, sou Hugo Roberto<span>.</span></h1>
+                        <div class="sobre_descricao">
+                            <p>Desenvolvedor front-end, com focado em HTML,
+                                CSS, JavaScript, React e NodeJS. Apaixonado por criar interfaces funcionais e aprender
+                                novas tecnologias, busco sempre entregar projetos de alta qualidade.</p>
+                            <p>Estou constantemente aprimorando minhas habilidades para me manter atualizado no mercado.
+                                😁
+                            </p>
+                            <p>Além do desenvolvimento, sou entusiasta do ciclismo, uma atividade que reflete
+                                meucompromisso com disciplina e foco. Estou sempre em busca de novos desafios e
+                                oportunidades para crescer profissionalmente. 🚴‍♀️💜💻</p>
+                        </div>
+                        <div class="btn-contato">
+                            <a href="#">
+                                <button>Acesse meu CV</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="sobre-foto">
+                        <img src="/src/images/foto-perfil.jpg" alt="Foto Perfil Hugo Roberto">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="habilidades" id="habilidades">
+            <div class="habilidades-conteudo">
+                <h2 class="titulos">MINHAS <span>HABILIDADES</span></h2>
+                <div class="flex">
+                    <div class="habilidades-box">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quos impedit aliquid blanditiis
+                            facilis iusto iure amet nemo. Quae fugiat odit nobis perferendis soluta sequi tempore
+                            consequatur natus vero est!</p>
+                    </div>
+                    <div class="habilidades-box">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quos impedit aliquid blanditiis
+                            facilis iusto iure amet nemo. Quae fugiat odit nobis perferendis soluta sequi tempore
+                            consequatur natus vero est!</p>
+                    </div>
+                    <div class="habilidades-box">
+                        <i class="fab fa-js-square"></i>
+                        <h3>JAVASCRIPT</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quos impedit aliquid blanditiis
+                            facilis iusto iure amet nemo. Quae fugiat odit nobis perferendis soluta sequi tempore
+                            consequatur natus vero est!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portifolio" id="portifolio">
+            <div class="portifolio-conteudo">
+                <h2 class="titulos">MEU <span>PORTIFÓLIO</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(src/images/imagem.jpg);">
+                        <div class="overlay">Projeto 1</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(src/images/imagem.jpg);">
+                        <div class="overlay">Projeto 2</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(src/images/imagem.jpg);">
+                        <div class="overlay">Projeto 3</div>
+                    </div>
+                </div>
+        </section>
+        <section class="contato" id="contato">
+            <div class="contato_conteudo">
+                <h2 class="titulos">Fale <span>Comigo</span></h2>
+                <form action="">
+                    <input type="text" id="nome" placeholder="Seu Nome:" required>
+                    <input type="text" id="email" placeholder="Seu email:" required>
+                    <input type="text" id="nome" placeholder="Seu celular:" required>
+                    <textarea name="mensagem" id="mensagem" placeholder="Sua Mensagem:"></textarea>
+                    <div class="btn-enviar"><input type="submit" value="Enviar"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-conteudo">
+            <div class="footer-line">
+                <div class="flex">
+                    <div class="footer-logo">
+                        <a href="#"><img src="src/images/logo.png" alt="logo HRB Dev"></a>
+                    </div>
+                    <div class="btn-social">
+                        <a href="" target="_blank"><button><i class="fab fa-instagram"></i></button></a>
+                        <a href="" target="_blank"><button><i class="fab fa-github"></i></button></a>
+                        <a href="" target="_blank"><button><i class="fab fa-linkedin"></i></button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-line borda">
+                <p><i class="fas fa-envelope"></i><a href="mailto:hugbraga@gmail.com"> hugbraga@gmail.com</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
