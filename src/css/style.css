@@ -207,6 +207,7 @@ section.portifolio{
     font-weight: 600;
     opacity: 0;
     transition: 0.5s;
+    color: var(--color-text);
 }
 
 .overlay:hover{
