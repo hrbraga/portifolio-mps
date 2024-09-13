@@ -6,7 +6,7 @@ body {
     background-color: var(--color-bkg-page);
     height: 100vh;
     font-family: "Poppins", sans-serif;
-    color: var(--color-text);
+    color: var(--color-one);
 }
 
 .flex {
@@ -19,7 +19,7 @@ h2.titulos {
 }
 
 h2.titulos span {
-    color: var(--color-bkg-btn);
+    color: var(--color-two);
 }
 
 /* Estilização Cabeçalho */
@@ -47,12 +47,12 @@ header nav ul li {
 }
 
 header a {
-    color: var(--color-text);
+    color: var(--color-one);
     display: inline-block;
 }
 
 header a:hover {
-    color: var(--color-text-hover);
+    color: var(--color-four);
     transform: scale(1.15);
     transition: 0.5s ease-in-out;
 }
@@ -72,7 +72,7 @@ button {
     font-size: 1.8rem;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
-    background-color: var(--color-bkg-btn);
+    background-color: var(--color-two);
     color: #1B1A55;
     border: 0;
     border-radius: 30px;
@@ -80,7 +80,7 @@ button {
 }
 
 button:hover, form .btn-enviar input:hover{
-    box-shadow: 1px 1px 8px var(--color-bkg-btn-hover);
+    box-shadow: 1px 1px 8px var(--color-two)    ;
     transform: scale(1.05);
     transition: 0.2s ease-in-out;
 }
@@ -102,7 +102,7 @@ button:hover, form .btn-enviar input:hover{
 }
 
 .sobre .sobre-conteudo h1 span {
-    color: var(--color-bkg-btn);
+    color: var(--color-two);
 }
 
 .sobre .sobre-conteudo .sobre_descricao {
@@ -155,7 +155,7 @@ button:hover, form .btn-enviar input:hover{
 
 .habilidades .habilidades-box i {
     font-size: 7.0rem;
-    color: var(--color-bkg-btn);
+    color: var(--color-two);
 }
 
 .habilidades .habilidades-box h3{
@@ -262,7 +262,7 @@ form .btn-enviar{
 
 form .btn-enviar input{
     width: 120px;
-    background-color: var(--color-bkg-btn);
+    background-color: var(--color-two);
     color: #02071b;
     font-weight: 700;
     font-size: 2rem;
@@ -287,7 +287,7 @@ footer .footer-line {
 }
 
 .borda{
-    border-top: 2px solid var(--color-bkg-btn);
+    border-top: 2px solid var(--color-two);
 }
 
 footer .footer-conteudo .btn-social i{
@@ -307,11 +307,11 @@ footer img {
 }
 
 footer .footer-line p{
-    color: var(--color-bkg-btn);
+    color: var(--color-two);
     font-size: 2.2rem;
 }
 
 footer .footer-line a{
-    color: var(--color-text);
+    color: var(--color-one);
     font-size: 1.2rem;
 }

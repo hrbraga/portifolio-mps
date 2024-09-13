@@ -2,9 +2,9 @@
 
 :root {
     --color-bkg-page: #070F2B;
-    --color-bkg-btn: #00ff08;
-    --color-bkg-btn-hover: #00ff08be; 
-    --color-text: #ffffff;
-    --color-text-hover: #00ff08;
     --color-text-menu-hover: #000d3d; 
+    --color-one: #ffffff;
+    --color-two: #00ff08;
+    --color-three: #00ff08be; 
+    --color-four: #00ff0881;
 }
