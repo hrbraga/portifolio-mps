@@ -22,6 +22,24 @@ h2.titulos span {
     color: var(--color-two);
 }
 
+/* ESTILIZAÇÃO BOTÃO WHATSAPP */
+
+.btn-flutuante {
+    position: fixed;
+    z-index: 1;
+    bottom: 20px;
+    right: 20px;
+    background-color: transparent;
+    border: none; 
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-flutuante img {
+    width: 50px; 
+    height: 50px;
+  }
+
 /* Estilização Cabeçalho */
 
 header {
@@ -292,6 +310,9 @@ footer .footer-line {
 
 footer .footer-conteudo .btn-social i{
     font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer .footer-conteudo .btn-social button{
